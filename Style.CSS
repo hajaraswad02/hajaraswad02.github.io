@@ -1,0 +1,95 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header.has-background {
+    background-color: white;
+}
+
+header.has-background .text-white {
+    color: black !important;
+}
+
+header.has-background .image-logo {
+    background-image: url(../Images/logo-dark.png);
+    background-repeat: no-repeat;
+
+    width: 140px;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 170px;
+    top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+
+.bg-hero {
+    background-image: url("../Images/bg-hero.png");
+    background-size: cover;
+    min-height: 100vh;
+    top: 0px;
+}
+
+.header {
+    padding-top: 150px;
+}
+
+.white-shape {
+    fill: white;
+}
+
+.box {
+    height: 300px;
+}
+.divider-container {
+    margin-top: -45px;
+}
+
+.card-1 {
+    margin-top: -200px;
+}
+
+.cust-reason:hover {
+    box-shadow: 5px 10px 40px rgb(211, 211, 211);
+}
+
+.btn-product:hover {
+    box-shadow: 5px 10px 30px rgb(190, 190, 190);
+}
+
+.section-bottom {
+    background-color: #f7f7f8;
+    margin-top: 100px;
+}
+
+.testimonial {
+    margin-top: -205px;
+    margin-bottom: 50px;
+}
+
+.comunity {
+    background-image: url("../Images/bg-hero.png");
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+}
